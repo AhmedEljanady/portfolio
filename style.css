@@ -1,0 +1,70 @@
+.hero-img {
+  /* background-color: #198754; */
+  background: linear-gradient(225deg, rgb(141, 226, 177), #198754);
+  border-radius: 63% 37% 32% 68%/77% 71% 29% 23%;
+  height: 65%;
+  /* overflow: hidden; */
+}
+
+.hero {
+  height: 100vh;
+}
+
+.txt-suc {
+  color: #198754;
+}
+
+.myCard:hover {
+  background: linear-gradient(225deg, rgb(141, 226, 177), #198754) !important;
+  color: #fff !important;
+}
+
+.myCard:hover .txt-suc {
+  color: #fff !important;
+}
+
+.myCard:hover .text-muted {
+  color: #badbcc !important;
+}
+
+.hero-det {
+  gap: 4vh;
+}
+
+.portfolio .card-img {
+  overflow: hidden;
+}
+.portfolio .card-img img:hover {
+  transition: all 0.5s;
+  transform: scale(1.3);
+}
+
+.socials i {
+  color: rgba(51, 51, 51, 0.603);
+}
+
+.socials:hover i {
+  color: #198754;
+}
+
+@media only screen and (max-width: 992px) {
+  #hero {
+    height: auto;
+  }
+  #hero .hero-img {
+    height: 65%;
+  }
+  #hero .hero-img img {
+    max-width: 65% !important;
+  }
+  #whatIdo {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-det {
+    margin-top: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
